@@ -20,21 +20,24 @@
       			<img src="images/logo.png" alt="">
       		</div>
       		<div class="contactos">
-      			 <div align="">atencion al cliente:(511) 586-6400</div>
-      			 <table class="languages">
-      			 	<tr>
-      			 		<td colspan="2" align="center">Idioma</td>
-      			 	</tr>
-      			 	<tr>
-      			 		<td>Español</td>
-      			 		<td>Ingles</td>
-      			 	</tr>
-      			 </table>
+      			 <div>atencion al cliente:(511) 586-6400</div>
+
+               <table class="languages">
+               <tr>
+                 <td colspan="2" align="center">Idioma</td>
+               </tr>
+               <tr>
+                 <td><a href="#"><img class="img-language" src="images/spain.png" alt=""> </a>  </td>
+                 <td><a href="#"><img class="img-language" src="images/eeuu.png" alt=""></a> </td>
+               </tr>
+              </table>
+
+
       		</div>
       	</div>
-        
+
     </div>
-     
+
       <nav>
           <ul class="menu">
               <li class="menu_item"><a href="index.php" class="menu_link">Inicio</a></li>
