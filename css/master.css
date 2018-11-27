@@ -1,0 +1,71 @@
+*{
+  font-family:  "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+body{
+  margin: 0;
+}
+header{
+ /* background: red;*/
+  margin: 0;
+}
+footer{
+  background: gray;
+  margin: 0;
+  min-height: 100px;
+}
+section{
+  margin: 0;
+  min-height: 300px;
+}
+nav{
+  padding: 5px;
+  background: #3399ff;
+}
+.container{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu{
+  text-align: center;
+}
+.menu_item{
+  display: inline;
+  padding: 10px;
+}
+
+li,lo{list-style: none;}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.mision-vision{
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width:1024px) {
+
+}
+@media screen and (max-width:768px) {
+  section{
+  }
+  .container{
+  }
+}
+@media screen and (max-width:480px) {
+  .menu_item{
+  display: block;
+  padding: 10px;
+}
+@media screen and (max-width:320px) {
+
+}
+
+}

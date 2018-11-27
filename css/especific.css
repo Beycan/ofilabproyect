@@ -1,0 +1,12 @@
+.languages{
+background: skyblue;
+
+}
+.end-line{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background:#262626;
+	color: white;
+	font-style:italic;
+	font-size: 10pt;
+}
