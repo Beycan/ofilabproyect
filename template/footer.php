@@ -1,4 +1,4 @@
-<footer>
+<footer class="scrollflow">
       <div class="container">
         <div class="grid-container col-3 grid-separation">
         	<div>

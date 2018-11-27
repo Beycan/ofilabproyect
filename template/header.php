@@ -3,21 +3,28 @@
 <html lang="es" dir="ltr">
 
   <head>
+    <script type="text/javascript" src="../js/jquery-latest.js"></script>
+    <script type="text/javascript" src="../js/nav.js"></script>
+
     <meta charset="utf-8">
     <title>Ofilab</title>
     <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/grid.css">
      <link rel="stylesheet" href="css/especific.css">
-    <img src="" alt="">
+  <!-- esto es para la nimacion -->
+  <script src="../js/eskju.jquery.scrollflow.min.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
   </head>
   <body>
     <header>
       <div class="container">
       	<div class="grid-container col-2">
-      		<div class="logo">
-      			<img src="images/logo.png" alt="">
+      		<div class="logo-container">
+      			<img id="logo" src="images/ofilab2.png" alt="">
       		</div>
       		<div class="contactos">
       			 <div>atencion al cliente:(511) 586-6400</div>
@@ -38,7 +45,7 @@
 
     </div>
 
-      <nav>
+      <nav class="interactive_menu">
           <ul class="menu">
               <li class="menu_item"><a href="index.php" class="menu_link">Inicio</a></li>
               <li class="menu_item"><a href="nosotros.php" class="menu_link">Nosotros</a></li>

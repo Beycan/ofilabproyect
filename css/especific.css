@@ -1,5 +1,5 @@
 header{
-background-image: url('../images/slider10.jpg');
+/* background-image: url('../images/slider10.jpg'); */
 background-size: 100%;
 }
 .languages{
@@ -15,8 +15,13 @@ float:right;
 	font-size: 10pt;
 }
 
+#logo{
+	width: 300px;
+}
 .contactos{
 	text-align:right;
+	color: white;
+
 }
 .content-languages{
  width: 100%;
