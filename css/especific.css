@@ -14,10 +14,10 @@ background-size: 100% 100%;
 
 }
 nav  {
-	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 41.45%);
-	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 41.45%);
-	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 41.45%);
-	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 41.45%);
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 30.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 30.05%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 30.05%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 30.05%);
 
 }
 
