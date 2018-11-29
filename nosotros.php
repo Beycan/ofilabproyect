@@ -52,14 +52,13 @@
 			<img src="./images/valores.jpg" width="100%">
 		</div>
 		<div id="txtValores">
-			•	Transparencia. hacia nuestro equipo y hacia nuestros clientes. <br>
-			•	Puntualidad. (El tiempo es dinero), Es importante para con nuestro equipo, sino también en otras situaciones que afectan directamente al cliente. <br>
-			•	Diferenciación: Somos personas con talento dispuestas a trabajar gustosamente por nuestros clientes. <br>
-			•	Excelencia. Nos exigimos por que podremos dar lo mejor. <br>
-			•	Responsabilidad. Tanto en la vertiente social como en la ecológica. <br>
-			•	Pasión. Por nuestro trabajo y con lo que hacemos <br>
-			•	Lealtad. Hacia nuestros clientes y compañeros
-
+			<li><p><b>Transparencia: </b>Hacia nuestro equipo y hacia nuestros clientes.</p></li>
+			<li><p><b>Puntualidad: </b>(El tiempo es dinero), Es importante para con nuestro equipo, sino también en otras situaciones que afectan directamente al cliente.</p></li>
+			<li><p><b>Diferenciación: </b> Somos personas con talento dispuestas a trabajar gustosamente por nuestros clientes.</p></li>
+			<li><p><b>Excelencia: </b> Nos exigimos por que podremos dar lo mejor.</p></li>
+			<li><p><b>Responsabilidad: </b>Tanto en la vertiente social como en la ecológica.</p></li>
+			<li><p><b>Pasión: </b>Por nuestro trabajo y con lo que hacemos</p></li>
+			<li><p><b>Lealtad: </b> Hacia nuestros clientes y compañeros</p></li>
 		</div>
 		</div>
 	</div>
