@@ -8,6 +8,7 @@
 <title>Documento sin título</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
+	<script type="text/javascript" src="js/tabs.js"></script>
 <!-- InstanceEndEditable -->
 	
 	<link rel="icon" type="image/png" href="images/logo.png">
@@ -24,18 +25,23 @@
 
 <body>
 <header>
+	<div class="container">
+	<img src="images/icons/icons8-youtube-play-48.png" width="48" height="48" alt=""/>
+		  <img src="images/icons/icons8-facebook-48.png" width="48" height="48" alt=""/>
+	</div>
 		<div class="cliente">
-			<div id="client" class="center"><b>Atención al cliente:</b>(511) 586-6400</div>
-		</div>
-	<div class="space"></div>
-      		<div class="container">
+			
+<div id="client" class="center"><b>Atención al cliente:</b>(511) 586-6400</div>
+  </div>
+  <div class="space"></div>
+  <div class="container">
 				<table width="100%">
 					<tr>
 						<td width="90%" class="center"> <h1 class="slogan">PRECISIÓN & TECNOLOGÍA a su servicio</h1></td>
 						<td>
 							   <table class="languages">
 							   <tr>
-								 <td colspan="2" align="center">Idioma</td>
+								 <td colspan="2" align="center" class="ligth">Idioma</td>
 							   </tr>
 							   <tr>
 								 <td><a href="#"><img class="img-language" src="images/spain.png" alt=""> </a>  </td>
@@ -46,7 +52,7 @@
 					</tr>
 				</table>
 			</div>
-		 <nav class="interactive_menu">
+  <nav class="interactive_menu">
           <ul class="menu">
               <li class="menu_item"><a href="index.html" class="menu_link">Inicio</a></li>
               <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
@@ -63,11 +69,11 @@
 	<section>
 		<!-- InstanceBeginEditable name="contenido" -->
 		<div class="container">
-				<p>Fabricación, reparación, mantenimiento, calibración de equipos de laboratorio industrial</p>
+				<p class="center" style="font-style: italic; font-size: 16pt;">Fabricación, reparación, mantenimiento, calibración de equipos de laboratorio industrial</p>
 				<h1>Reología</h1>
 						<div class="tab">
-						  <button class="tablinks2" onclick="openItem(event, 'Viscosimetro')" id="defaultOpen">Viscosimetro</button>
-						  <button class="tablinks2" onclick="openItem(event, 'Rehometro')">Rehometro</button>
+						  <button class="tablinks" onclick="openItem(event, 'Viscosimetro')" id="default">Viscosimetro</button>
+						  <button class="tablinks" onclick="openItem(event, 'Rehometro')">Rehometro</button>
 						</div>
 
 						<div id="Viscosimetro" class="tabcontent">
@@ -80,33 +86,36 @@
 
 
 				<h1>Isotérmicos</h1>
-						<div class="tab">
-							<button type="tablinks" onclick="openItem2(event, 'termometro-presion')" id="default" >Termómetro de Presión digital</button>
-						 	<button type="tablinks" onclick="openItem2(event, 'termometro-mercurio')">Termómetro de mercurio</button>
-						 	<button type="tablinks" onclick="openItem2(event, 'termometro-industrial')">Termómetros industriales</button>
-						 	<button type="tablinks" onclick="openItem2(event, 'termocuplas')">Termocuplas</button>
-						 	<button type="tablinks" onclick="openItem2(event, 'mufles')">Mufles</button>
-						  <button type="tablinks" onclick="openItem2(event, 'baño-maria')">Baño María</button>
+<!--
+						<button type="tablinks" onclick="openItem(event, 'termometro-presion')" id="default" >Termómetro de Presión digital</button>
+						 	<button type="tablinks" onclick="openItem(event, 'termometro-mercurio')">Termómetro de mercurio</button>
+						 	<button type="tablinks" onclick="openItem(event, 'termometro-industrial')">Termómetros industriales</button>
+						 	<button type="tablinks" onclick="openItem(event, 'termocuplas')">Termocuplas</button>
+						 	<button type="tablinks" onclick="openItem(event, 'mufles')">Mufles</button>
+						  <button type="tablinks" onclick="openItem(event, 'baño-maria')">Baño María</button>
+-->
 
-						</div>
-						<div id="termometro-presion" class="tabcontent2">
+						
+<!--
+						<div id="termometro-presion" class="tabcontent">
 								presion digital
 						</div>
-						<div id="termometro-mercurio" class="tabcontent2">
+						<div id="termometro-mercurio" class="tabcontent">
 							mercurio
 						</div>
-						<div id="termometro-industrial" class="tabcontent2">
+						<div id="termometro-industrial" class="tabcontent">
 							insdustrial
 						</div>
-						<div class="tabcontent2" id="termocuplas">
+						<div class="tabcontent" id="termocuplas">
 							termocuplas
 						</div>
-						<div class="tabcontent2" id="mufles">
+						<div class="tabcontent" id="mufles">
 							mufles
 						</div>
-						<div class="tabcontent2" id="baño-maria">
+						<div class="tabcontent" id="baño-maria">
 							baño maria
 						</div>
+-->
 						<h1>Químicos</h1>
 						<div class="">
 						 contenido de químicos...
@@ -116,9 +125,7 @@
 							contenido de fisicos...
 						</div>
 
-	</div>
-		
-		
+		</div>
 		<!-- InstanceEndEditable -->
 		
 	</section>
