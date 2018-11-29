@@ -4,24 +4,13 @@ header{
 /* background-image: -webkit-linear-gradient(270deg,rgba(19, 127, 187, 0.18) 0%,rgb(251, 251, 251) 62.69%, rgba(92, 149, 186, 0.37) 100%); */
 background-size: 100%;
 }
-.contactos{
-	min-height: 400px;
-}
 nav{
 	/* background-image: -webkit-linear-gradient(270deg,rgba(19, 127, 187, 0.18) 0%,rgb(64, 171, 224) 62.69%, rgba(92, 149, 186, 0.37) 100%); */
-background: rgb(60, 147, 218);
+	background: rgb(60, 147, 218);
 }
 .languages{
 	padding-top: 100%;
 float:right;
-}
-.end-line{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background:#262626;
-	color: white;
-	font-style:italic;
-	font-size: 10pt;
 }
 
 .menu_link:hover{
@@ -53,4 +42,28 @@ text-align:center;
 }
 .slogan {
 	background-color: rgba(255,255,255,1.00);
+}
+
+.end-line{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #1D1D1D;
+	font-style: italic;
+	font-size: 10pt;
+}
+footer {
+	background-color: rgba(42,42,42,1.00);
+	color: rgba(177,177,177,1.00);
+	font-size: 14px;
+}
+h3 {
+	color: rgba(60,147,218,1.00);
+}
+.pago {
+	width: 100px;
+	z-index: 999;
+}
+.pago:hover {
+	z-index: 999;
+	transform: scale(1.1);
 }

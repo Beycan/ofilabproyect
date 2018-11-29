@@ -20,7 +20,7 @@
     width: 100%;
     height: auto;
   }
-
+		
   .overlay {
     position: absolute;
     top: 0;
@@ -31,7 +31,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(0,0,0,0.60);
+    background-color: rgba(21,112,196,0.70);
   }
 
   .cont:hover .overlay {
@@ -49,6 +49,8 @@
     -ms-transform: translate(-50%, -50%);
   }
   </style>
+	
+	<script type="text/javascript" src="sliderengine/jquery.js"></script><script type="text/javascript" src="sliderengine/jquery.hislider.js"></script>
 <!-- InstanceEndEditable -->
 	
 	<link rel="icon" type="image/png" href="images/logo.png">
@@ -110,9 +112,9 @@
 	<section>
 		<!-- InstanceBeginEditable name="contenido" -->
 		<div class="container">
-          <div class="slider" style="width: 100%; height: 300px">
-
-          </div>
+          
+				<div id="hislider1" style=" max-width:100%;height:350px; margin: 0 auto;"><noscript>The slider is powered by <strong>Hi Slider</strong>, a easy jQuery image slider from <a target="_blank" href="hislider.com">hislider.com</a>. Please enable JavaScript to view.</noscript></div>
+         
           <div class="grid-container col-3">
            
              
@@ -149,39 +151,61 @@
 	</section>
 	<footer>
 		<footer class="scrollflow">
-      <div class="container">
-        <div class="grid-container col-3 grid-separation">
-        	<div>
-        		<h3>Atención al Cliente</h3>
-				Gerencia General:<br>
-				gerencia@ofilabperu.com<br>
-				Departamento Técnico:<br>
-				departamentotecnico@ofilabperu.com<br>
-				Área Proyectos:<br>
-				ctproyectos@ofilabperu.com<br>
-				Área Metrología:<br>
-				atcmetrologia@ofilabperu.com<br>
-        	</div>
-			<div>
-        		<h3>Formas de pago</h3>
+      <div class="container" style="padding-bottom: 20px;">
+        <div class="grid-container col-3">
+			<div class="center">
+        		<h3 >Formas de pago</h3>
 				<table>
 					<tr>
-						<td><img src="images/pagos/1514414723463.png" width="100" /></td>
-						<td><img src="images/pagos/Paypal-logo-1.png" width="100" alt=""/></td>
-					  <td><img src="images/pagos/MasterCard_Logo.svg-5820d1b05f9b581c0b700a5f.png" width="100" alt=""/></td>
+						<td><img class="pago" src="images/pagos/1514414723463.png"/></td>
+						<td><img class="pago" src="images/pagos/Paypal-logo-1.png" /></td>
+					  <td><img class="pago" src="images/pagos/MasterCard_Logo.svg-5820d1b05f9b581c0b700a5f.png"/></td>
 					</tr>
 				</table>
         	</div>
+        	<div>
+				<h3 class="">Atención al Cliente</h3>
+				<table>
+					<tr>
+						<td class="ligth">Gerencia General:</td>
+						<td>gerencia@ofilabperu.com</td>
+					</tr>
+					<tr>
+						<td class="ligth">Departamento Técnico:</td>
+						<td>departamentotecnico@ofilabperu.com</td>
+					</tr>
+					<tr>
+						<td class="ligth">Área Proyectos:</td>
+						<td>ctproyectos@ofilabperu.com</td>
+					</tr>
+					<tr>
+						<td class="ligth">Área Metrología:</td>
+						<td>atcmetrologia@ofilabperu.com</td>
+					</tr>
+				</table>
+        		
+				
+        	</div>
+			
        	  <div>
-        		<h3>Ofilab Perú S.A.C.</h3>
-				<img src="images/icons/icons8-marcador-50.png" width="30" alt=""/>Jr. San Luis N° 341 Urb. San Carlos - Lima 07<br>
-				Lima-Perú<br>
-		    <img src="images/icons/icons8-teléfono-filled-50%20(1).png" width="30"  alt=""/>Telef. (511) 586-6400 </div>
+        		<h3 class="">Ofilab Perú S.A.C.</h3>
+			  <table>
+			  	<tr>
+			  		<td><img src="images/icons/icons8-marcador-50.png" width="30" alt=""/></td>
+			  		<td>Jr. San Luis N° 341<br> Urb. San Carlos - Lima 07 Lima-Perú</td>
+			  	</tr>
+			  	<tr>
+			  		<td><img src="images/icons/icons8-teléfono-filled-50%20(1).png" width="30"  alt=""/></td>
+			  		<td> Telef. (511) 586-6400 </td>
+			  	</tr>
+			  </table>
+				
+		   </div>
         	
         </div>
       </div>
       <div class="end-line">
-      	<div class="container">
+      	<div class="container center">
       		Copyright © 2018 Ofilab Perú S.A.C. Todos los Derechos Reservados
       	</div>
       </div>
