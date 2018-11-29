@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+	 <script type="text/javascript" src="../js/jquery-latest.js"></script>
+    <script type="text/javascript" src="../js/nav.js"></script>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+	
+	<link rel="icon" type="image/png" href="images/logo.png">
+	<link href="../css/especific.css" rel="stylesheet" type="text/css">
+	<link href="../css/grid.css" rel="stylesheet" type="text/css">
+	<link href="../css/master.css" rel="stylesheet" type="text/css">
+	<link href="../css/tabs.css" rel="stylesheet" type="text/css">
+  <!-- esto es para la nimacion -->
+  <script src="../js/eskju.jquery.scrollflow.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+<header>
+		 <div class="container">
+      	<div id="header-container" class="grid-container col-3">
+      		<div class="logo-container">
+      			<!-- <img id="logo" src="images/ofilab2.png" alt=""> -->
+      		</div>
+
+          <div>
+              <h1 class="slogan">PRECISIÓN & TECNOLOGÍA a su servicio</h1>
+          </div>
+
+      		<div class="contactos">
+      			 <div>atencion al cliente:(511) 586-6400</div>
+
+               <table class="languages">
+               <tr>
+                 <td colspan="2" align="center">Idioma</td>
+               </tr>
+               <tr>
+                 <td><a href="#"><img class="img-language" src="images/spain.png" alt=""> </a>  </td>
+                 <td><a href="#"><img class="img-language" src="images/eeuu.png" alt=""></a> </td>
+               </tr>
+              </table>
+
+
+      		</div>
+
+      	</div>
+		</div>
+		 <nav class="interactive_menu">
+          <ul class="menu">
+              <li class="menu_item"><a href="index.html" class="menu_link">Inicio</a></li>
+              <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
+              <li class="menu_item"><a href="equipos.html" class="menu_link">Equipos</a></li>
+              <li class="menu_item"><a href="descargas.html" class="menu_link">Descargas</a></li>
+              <li class="menu_item"><a href="marcas.html" class="menu_link">Marcas</a></li>
+              <li class="menu_item"><a href="clientes.html" class="menu_link">Clientes</a></li>
+              <li class="menu_item"><a href="contactanos.html" class="menu_link">Contáctanos</a></li>
+
+          </ul>
+
+      </nav>
+	</header>
+	<section>
+		<!-- TemplateBeginEditable name="contenido" -->
+		
+		
+		<!-- TemplateEndEditable -->
+		
+	</section>
+	<footer>
+		<footer class="scrollflow">
+      <div class="container">
+        <div class="grid-container col-3 grid-separation">
+        	<div>
+        		<h3>Atención al Cliente</h3>
+				Gerencia General:<br>
+				gerencia@ofilabperu.com<br>
+				Departamento Técnico:<br>
+				departamentotecnico@ofilabperu.com<br>
+				Área Proyectos:<br>
+				ctproyectos@ofilabperu.com<br>
+				Área Metrología:<br>
+				atcmetrologia@ofilabperu.com<br>
+        	</div>
+			<div>
+        		<h3>Formas de pago</h3>
+				<table>
+					<tr>
+						<td><img src="../images/pagos/1514414723463.png" width="100" /></td>
+						<td><img src="../images/pagos/Paypal-logo-1.png" width="100" alt=""/></td>
+					  <td><img src="../images/pagos/MasterCard_Logo.svg-5820d1b05f9b581c0b700a5f.png" width="100" alt=""/></td>
+					</tr>
+				</table>
+        	</div>
+       	  <div>
+        		<h3>Ofilab Perú S.A.C.</h3>
+				<img src="../images/icons/icons8-marcador-50.png" width="30" alt=""/>Jr. San Luis N° 341 Urb. San Carlos - Lima 07<br>
+				Lima-Perú<br>
+		    <img src="../images/icons/icons8-teléfono-filled-50 (1).png" width="30"  alt=""/>Telef. (511) 586-6400 </div>
+        	
+        </div>
+      </div>
+      <div class="end-line">
+      	<div class="container">
+      		Copyright © 2018 Ofilab Perú S.A.C. Todos los Derechos Reservados
+      	</div>
+      </div>
+</footer>
+</footer>
+</body>
+</html>

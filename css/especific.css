@@ -1,9 +1,18 @@
 header{
-/* background-image: url('../images/slider10.jpg'); */
+ background-image: url('../images/header.jpg');
+/* background: rgb(153, 160, 168); */
+/* background-image: -webkit-linear-gradient(270deg,rgba(19, 127, 187, 0.18) 0%,rgb(251, 251, 251) 62.69%, rgba(92, 149, 186, 0.37) 100%); */
 background-size: 100%;
 }
+.contactos{
+	min-height: 400px;
+}
+nav{
+	/* background-image: -webkit-linear-gradient(270deg,rgba(19, 127, 187, 0.18) 0%,rgb(64, 171, 224) 62.69%, rgba(92, 149, 186, 0.37) 100%); */
+background: rgb(60, 147, 218);
+}
 .languages{
-	padding-top: 50px;
+	padding-top: 100%;
 float:right;
 }
 .end-line{
@@ -13,6 +22,13 @@ float:right;
 	color: white;
 	font-style:italic;
 	font-size: 10pt;
+}
+
+.menu_link:hover{
+	z-index: 999;
+	transform: scale(1.1);
+
+
 }
 
 #logo{
@@ -34,4 +50,7 @@ text-align:center;
 .img-language:hover{
 	z-index: 999;
 	transform: scale(1.1);
+}
+.slogan {
+	background-color: rgba(255,255,255,1.00);
 }

@@ -22,10 +22,15 @@
   <body>
     <header>
       <div class="container">
-      	<div class="grid-container col-2">
+      	<div id="header-container" class="grid-container col-3">
       		<div class="logo-container">
-      			<img id="logo" src="images/ofilab2.png" alt="">
+      			<!-- <img id="logo" src="images/ofilab2.png" alt=""> -->
       		</div>
+
+          <div class="slogan">
+              <h1>PRECISIÓN & TECNOLOGÍA a su servicio</h1>
+          </div>
+
       		<div class="contactos">
       			 <div>atencion al cliente:(511) 586-6400</div>
 
@@ -41,6 +46,7 @@
 
 
       		</div>
+
       	</div>
 
     </div>
