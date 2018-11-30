@@ -2,12 +2,8 @@ header{
  background-image: url('../images/header.jpg');
 /* background: rgb(153, 160, 168); */
 /* background-image: -webkit-linear-gradient(270deg,rgba(19, 127, 187, 0.18) 0%,rgb(251, 251, 251) 62.69%, rgba(92, 149, 186, 0.37) 100%); */
-background-size: 100%;
-}
-nav{
-	/* background-image: -webkit-linear-gradient(270deg,rgba(19, 127, 187, 0.18) 0%,rgb(64, 171, 224) 62.69%, rgba(92, 149, 186, 0.37) 100%); */
-	background: rgb(60, 147, 218);
-	margin-top: 0px;
+background-size: 100% 100%;
+
 }
 
 .menu_link:hover{
@@ -17,6 +13,15 @@ nav{
 
 
 }
+nav  {
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 30.05%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 30.05%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 30.05%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(61,132,195,1.00) 30.05%);
+
+}
+
+
 
 #logo{
 	width: 300px;
@@ -62,9 +67,6 @@ text-align:center;
 	background-color: #1D1D1D;
 	font-style: italic;
 	font-size: 10pt;
-}
-.menu_link {
-
 }
 
 footer {
@@ -430,6 +432,15 @@ align-items: center;
 
 }
 
+.img-brand {
+	width: 200px;
+}
+.interactive_menu {
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+}
+
 
 
 /*susti Marcas*/
@@ -679,7 +690,6 @@ align-items: center;
   }
 }
 
-
 /*Cont Descargas*/
 content-all{
     width: 100%;
@@ -863,4 +873,8 @@ content-all{
 .content-img:hover a:hover{
     background-color:#3D84C3 ;
     color:white ;
+}
+.img-equipos {
+	width: 300px;
+	height: 350px;
 }

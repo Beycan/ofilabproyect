@@ -73,6 +73,10 @@ a{
 @media screen and (max-width:768px) {
   section{
   }
+header {
+	height: 200px;
+}
+
 }
 @media screen and (max-width:480px) {
 @media screen and (max-width:320px) {
