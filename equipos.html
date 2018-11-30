@@ -14,6 +14,54 @@
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+	
+	<style>
+.img-contenedor {
+  position: relative;
+  width: 100%;
+}
+
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(64,65,66,0.82);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.img-contenedor:hover .overlay2 {
+ height: 100%;
+}
+
+.img-contenedor:hover .img-equipos {
+	z-index: 99999;
+  	transform: scale(1.1);
+	-webkit-box-shadow: 2px 2px 5px rgba(108,171,231,1.00);
+	box-shadow: 2px 2px 5px rgba(108,171,231,1.00);
+	
+	
+}
+		
+.text2 {
+/*  white-space: nowrap; */
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+	text-align: left;
+	font-size: 12pt;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+	
 <!-- InstanceEndEditable -->
 	
 	<link rel="icon" type="image/png" href="images/logo.png">
@@ -82,29 +130,127 @@
 						  <div id="Tabs1">
 									  <ul>
 										<li><a href="#tabs-1">Viscosimetro</a></li>
+
 										<li><a href="#tabs-2">Reómetro</a></li>
+
 									
 						</ul>
 									  	<div id="tabs-1">
 											<p>
 												<div class="grid-container col-4">
-													<div class="center"><img src="images/portfolio/BYK-Gardner 7900 Brookfield Viscometer.jpg" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/Viscosímetro Brookfield Dial.jpg" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/Viscosímetro digital Brookfield DV1 M.jpg" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/Viscosímetro DV1M Brookfield.png" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/viscosimetro-de-rotacion.jpg" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/Viscosímetros Brookfield modelos DV2T.jpg" alt="" class="img-equipos"></div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/BYK-Gardner 7900 Brookfield Viscometer.jpg" alt="" class="img-equipos">
+													<div class="overlay2">
+													<div class="text2">
+														<h3>BYK-Gardner 7900 Brookfield Viscometer</h3>
+														Model LVDV-E, 115V, 15 to 2,000,000 Centipoise Viscosity Range
+														
+														</div>
+												  	</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/Viscosímetro Brookfield Dial.jpg" alt="" class="img-equipos">
+													<div class="overlay2">
+														<div class="text2">
+															<h3>Viscosímetro Brookfield Dial</h3>
+														
+
+																Presupuesto:<br>
+																Precisión: ± 3%<br>
+																Reproducibilidad del viscómetro: ± 0.2%<br>
+																Peso bruto: 12 kg<br>
+
+
+
+														</div>
+														</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/Viscosímetro digital Brookfield DV1 M.jpg" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														<h3>Viscosímetro digital Brookfield DV1 M</h3>
+															Rango de Viscocidad (cP)	1 - 6M cps<br>
+															Modelo	DV1 M<br>
+															Marca	Brookfield<br>
+															Cantidad mínima de pedido	01 pieza
+															<h3>Presupuesto:</h3>
+															Capacidad de compensación de temperatura a ± 2 ° C<br>
+															Repetibilidad: 0.5% del rango de escala completa<br>
+															Peso bruto: 11 kg
+														</div>
+														</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/Viscosímetro DV1M Brookfield.png" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/viscosimetro-de-rotacion.jpg" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/Viscosímetros Brookfield modelos DV2T.jpg" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+													</div>
 												</div>
 										  	</p>
 										</div>
 							  			<div id="tabs-2">
 											<p>
 												<div class="grid-container col-4">
-													<div class="center"><img src="images/portfolio/RST SST Plus Reómetro.jpg" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/Reómetro PVS.jpg" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/Reómetro portátil R -S de Brookfield.jpg" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/REOMETRO CONO-PLATO RST-CPS.jpg" alt="" class="img-equipos"></div>
-													<div class="center"><img src="images/portfolio/REOMETRO DIGITAL  DV3THB.jpg" alt="" class="img-equipos"></div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/RST SST Plus Reómetro.jpg" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/Reómetro PVS.jpg" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/Reómetro portátil R -S de Brookfield.jpg" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/REOMETRO CONO-PLATO RST-CPS.jpg" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+													</div>
+													<div class="center img-contenedor">
+														<img src="images/portfolio/REOMETRO DIGITAL  DV3THB.jpg" alt="" class="img-equipos">
+														<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+													</div>
 												</div>
 											</p>
 										</div>
@@ -131,13 +277,49 @@
 											  <p>Contenido 3</p>
 							</div>
 							  <div id="tabs-6">
+
 											  <p>
 								  <div class="grid-container col-4">
-								  	<div class="center"><img src="images/portfolio/Termocupla tipo K.jpg" alt="" class="img-equipos"></div>
-								  	<div class="center"><img src="images/portfolio/Termocupla tipo bayoneta.jpg" alt="" class="img-equipos"></div>
-								  	<div class="center"><img src="images/portfolio/Termocupla RTD PT100 con Cabezal WZP-230.jpg" alt="" class="img-equipos"></div>
-								  	<div class="center"><img src="images/portfolio/Termocupla PT 100.jpg" alt="" class="img-equipos"></div>
-								  	<div class="center"><img src="images/portfolio/Termocupla (MEDITERM BK200).jpg" alt="" class="img-equipos"></div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/Termocupla tipo K.jpg" alt="" class="img-equipos">
+										<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									  </div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/Termocupla tipo bayoneta.jpg" alt="" class="img-equipos">
+										<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									  </div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/Termocupla RTD PT100 con Cabezal WZP-230.jpg" alt="" class="img-equipos">
+									  	<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									  </div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/Termocupla PT 100.jpg" alt="" class="img-equipos">
+									  	<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									  </div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/Termocupla (MEDITERM BK200).jpg" alt="" class="img-equipos">
+									  <div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									  </div>
 								  </div>
 								  </p>
 							</div>
@@ -157,13 +339,49 @@
 							  <div id="tabs-8">
 											  <p>
 								   <div class="grid-container col-4">
-								  	<div class="center"><img src="images/portfolio/BAÑO DE AGUA CON REGULACION DIGITAL S-28.jpg" alt="" class="img-equipos"></div>
-								  	<div class="center"><img src="images/portfolio/BAÑO DE MARÍA CON INDICADOR DIGITAL.jpg" alt="" class="img-equipos"></div>
-								  	<div class="center"><img src="images/portfolio/Baño maría analógico (CMD-2).png" alt="" class="img-equipos"></div>
-								  	<div class="center"><img src="images/portfolio/BAÑO MARÍA CALEFACTOR -TERMOSTÁTICAMENTE REGULADO -DE MESA.jpg" alt="" class="img-equipos"></div>
-								  	<div class="center"><img src="images/portfolio/Baño María Digital – BAD-6.jpg" alt="" class="img-equipos"></div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/BAÑO DE AGUA CON REGULACION DIGITAL S-28.jpg" alt="" class="img-equipos">
+										<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									   </div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/BAÑO DE MARÍA CON INDICADOR DIGITAL.jpg" alt="" class="img-equipos">
+										<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									   </div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/Baño maría analógico (CMD-2).png" alt="" class="img-equipos">
+										<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									   </div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/BAÑO MARÍA CALEFACTOR -TERMOSTÁTICAMENTE REGULADO -DE MESA.jpg" alt="" class="img-equipos">
+										<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									   </div>
+								  	<div class="center img-contenedor">
+										<img src="images/portfolio/Baño María Digital – BAD-6.jpg" alt="" class="img-equipos">
+										<div class="overlay2">
+														<div class="text2">
+														
+														</div>
+														</div>
+									   </div>
 								  </div>
 								  </p>
+
 							</div>
 						  </div>
           <!--
