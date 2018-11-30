@@ -9,30 +9,21 @@ header{
   margin: 0;
 }
 footer{
-  background: gray;
-  margin: 0;
-  min-height: 100px;
+	margin: 0;
+	min-height: 100px;
 }
 section{
   margin: 0;
   min-height: 300px;
 }
-nav{
-  padding: 5px;
-  background: #3399ff;
-}
 .container{
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.menu{
-  text-align: center;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
 }
 .menu_item{
-  display: inline;
-  padding: 10px;
+	display: inline;
 }
 
 li,lo{list-style: none;}
@@ -41,15 +32,40 @@ a{
   color: white;
   text-decoration: none;
 }
+.menu-fixed {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	/*max-width:1000px;*/
+	left: 0;
+	width: 100%;
+	background-color: rgba(60,147,218,1.00);
+	text-align: center;
+}
 
 .mision-vision{
   width: 90%;
   margin-right: auto;
   margin-left: auto;
   background-color: white;
-  /*padding-top: 20px;
+ /* padding-top: 20px;
   padding-bottom: 20px;*/
 }
+.center {
+	text-align: center;
+}
+.line {
+	border-bottom: 1px solid rgba(0,0,0,1.00);
+}
+.ligth {
+	color: rgba(255,255,255,1.00);
+}
+.dark {
+}
+
+
+
+
 
 @media screen and (max-width:1024px) {
 
@@ -57,14 +73,8 @@ a{
 @media screen and (max-width:768px) {
   section{
   }
-  .container{
-  }
 }
 @media screen and (max-width:480px) {
-  .menu_item{
-  display: block;
-  padding: 10px;
-}
 @media screen and (max-width:320px) {
 
 }
