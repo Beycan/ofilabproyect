@@ -6,6 +6,16 @@
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Documento sin título</title>
+	
+	<script> 
+
+	  function  pdf_click(comp){
+	  let id = comp.id;
+	  document.getElementById('pdf').src="./pdf/"+id+".pdf";
+	}
+
+
+</script> 
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
@@ -24,10 +34,6 @@
 
 <body>
 <header>
-	<div class="container">
-	<img src="images/icons/icons8-youtube-play-48.png" width="48" height="48" alt=""/>
-		  <img src="images/icons/icons8-facebook-48.png" width="48" height="48" alt=""/>
-	</div>
 		<div class="cliente">
 			
 <div id="client" class="center"><b>Atención al cliente:</b>(511) 586-6400</div>
@@ -38,142 +44,156 @@
 					<tr>
 						<td width="90%" class="center"> <h1 class="slogan">PRECISIÓN & TECNOLOGÍA a su servicio</h1></td>
 						<td>
-							   <table class="languages">
-							   <tr>
-								 <td colspan="2" align="center" class="ligth">Idioma</td>
-							   </tr>
+							  
+						</td>
+					</tr>
+				</table>
+			</div>
+  <nav class="interactive_menu" style="display: flex; ">
+          <ul class="menu">
+              <li class="menu_item"><a href="index.html" class="menu_link">INICIO</a></li>
+              <li class="menu_item"><a href="nosotros.html" class="menu_link">NOSOTROS</a></li>
+              <li class="menu_item"><a href="equipos.html" class="menu_link">EQUIPOS</a></li>
+              <li class="menu_item"><a href="descargas.html" class="menu_link">DESCARGAS</a></li>
+              <li class="menu_item"><a href="marcas.html" class="menu_link">MARCAS</a></li>
+              <li class="menu_item"><a href="clientes.html" class="menu_link">CLIENTES</a></li>
+              <li class="menu_item"><a href="contactanos.html" class="menu_link">CONTÁCTANOS</a></li>
+
+          </ul>
+	  <div style="padding-top: 15px;width: 30%;" align="right">
+	  <table class="languages" style="">
 							   <tr>
 								 <td><a href="#"><img class="img-language" src="images/spain.png" alt=""> </a>  </td>
 								 <td><a href="#"><img class="img-language" src="images/eeuu.png" alt=""></a> </td>
 							   </tr>
 							  </table>
-						</td>
-					</tr>
-				</table>
-			</div>
-  <nav class="interactive_menu">
-          <ul class="menu">
-              <li class="menu_item"><a href="index.html" class="menu_link">Inicio</a></li>
-              <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
-              <li class="menu_item"><a href="equipos.html" class="menu_link">Equipos</a></li>
-              <li class="menu_item"><a href="descargas.html" class="menu_link">Descargas</a></li>
-              <li class="menu_item"><a href="marcas.html" class="menu_link">Marcas</a></li>
-              <li class="menu_item"><a href="clientes.html" class="menu_link">Clientes</a></li>
-              <li class="menu_item"><a href="contactanos.html" class="menu_link">Contáctanos</a></li>
 
-          </ul>
-
+	  </div>
+	   						
    </nav>
 	</header>
 	<section>
 		<!-- InstanceBeginEditable name="contenido" -->
-				
-   <div class="container">
-    <div id="tituM" class="ctituloM">
-      <p class="titM"><strong>Productos</strong></p>
-    </div>
-     <div class="grid-container col-4">
-			<a href="#modal" onclick="pdf_click(this)" id="BYK-Gardner 7900 Brookfield Viscometer">VISCOSIMEROS</a>
-			<a href="#modal" onclick="pdf_click(this)" id="phmetros">PHMETROS</a>
-			<a href="#modal" onclick="pdf_click(this)" id="turbidimetros">turbidimetros</a>
-			<a href="#modal" onclick="pdf_click(this)" id="multimetros">MULTIMETROS</a>
-     </div>  
+			<div class="container">
+					<div class="content-all">
+						<div id="tituM" class="bandaTexto">
+					     <p class="acomodarTexto">Viscosímetros</p>
+					    </div>
+						<div class="grid-container col-3">
+				        <div class="content-img">
+				            
+				            <img src="images/portfolio/BYK-Gardner 7900 Brookfield Viscometer version2.jpg" width="80%">
+				            
+				            <div class="content-txt">
+				                <h2>BYK-Gardner 7900 Brookfield Viscometer</h2>
+				                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quos consectetur est eligendi, sapiente quaerat cupiditate velit, sit voluptatum repellendus perspiciatis mollitia minus totam!</p>        
+				                <a href="#modal" onclick="pdf_click(this)" id="BYK-Gardner 7900 Brookfield Viscometer">Leer manual</a>         
+				            </div>
+				            
+				            <div class="content-1"></div>
+				            <div class="content-2"></div>
+				            <div class="content-3"></div>
+				            <div class="content-4"></div>
+				        </div>
+				        <div class="content-img">
+				            
+				            <img src="images/portfolio/Viscosímetro Brookfield Dial version2.jpg" width="80%">
+				            
+				            <div class="content-txt">
+				                <h2>Viscosímetro Brookfield Dial</h2>
+				                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quos consectetur est eligendi, sapiente quaerat cupiditate velit, sit voluptatum repellendus perspiciatis mollitia minus totam!</p>        
+				                <a href="#modal" onclick="pdf_click(this)" id="Viscosímetro Brookfield Dial">Leer manual</a>         
+				            </div>
+				            
+				            <div class="content-1"></div>
+				            <div class="content-2"></div>
+				            <div class="content-3"></div>
+				            <div class="content-4"></div>
+				        </div>
+				        <div class="content-img">
+				            
+				            <img src="images/portfolio/Viscosímetro digital Brookfield DV1M version2.jpg" width="80%">
+				            
+				            <div class="content-txt">
+				                <h2>Viscosímetro digital Brookfield DV1 M</h2>
+				                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quos consectetur est eligendi, sapiente quaerat cupiditate velit, sit voluptatum repellendus perspiciatis mollitia minus totam!</p>        
+				                <a href="#modal" onclick="pdf_click(this)" id="Viscosímetro digital Brookfield DV1 M">Leer manual</a>         
+				            </div>
+				            
+				            <div class="content-1"></div>
+				            <div class="content-2"></div>
+				            <div class="content-3"></div>
+				            <div class="content-4"></div>
+				        </div>
 
-	<div class="slider">
-    <div class="popular-movies">
-      <div class="movie-container">
-        <div class="image-effect">
-          <div class="movie-image"><img src="images/portfolio/BYK-Gardner 7900 Brookfield Viscometer.jpg" width="80%"  class="zoom">
-		  </div>
-		</div>
-		 <div class="image-effect">
-          <div class="movie-image"><img src="images/portfolio/Viscosímetro Brookfield Dial.jpg" width="80%" class="zoom">
-		  </div>
-		</div>
-		 <div class="image-effect">
-          <div class="movie-image"><img src="images/portfolio/Viscosímetro digital Brookfield DV1 M.jpg" width="80%" class="zoom">
-		  </div>
-		</div>
-		<div class="image-effect">
-          <div class="movie-image"><img src="images/portfolio/Viscosímetro DV1M Brookfield.png" width="80%" class="zoom">
-		  </div>
-		</div>
-		 <div class="image-effect">
-          <div class="movie-image"><img src="images/portfolio/viscosimetro-de-rotacion.jpg" width="80%" class="zoom">
-		  </div>
-		</div>
-		 <div class="image-effect">
-          <div class="movie-image"><img src="images/portfolio/Viscosímetros Brookfield modelos DV2T.jpg" width="80%" class="zoom">
-		  </div>
-		</div>
+				        <div class="content-img">
+				            
+				            <img src="images/portfolio/Viscosímetro DV1M Brookfield version2.png" width="80%">
+				            
+				            <div class="content-txt">
+				                <h2>Viscosímetro DV1M Brookfield</h2>
+				                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quos consectetur est eligendi, sapiente quaerat cupiditate velit, sit voluptatum repellendus perspiciatis mollitia minus totam!</p>        
+				                <a href="#modal" onclick="pdf_click(this)" id="Viscosímetro DV1M Brookfield">Leer manual</a>         
+				            </div>
+				            
+				            <div class="content-1"></div>
+				            <div class="content-2"></div>
+				            <div class="content-3"></div>
+				            <div class="content-4"></div>
+				        </div>
 
-	 </div>
-    </div>
-</div>
+						<div class="content-img">
+				            
+				            <img src="images/portfolio/viscosimetro-de-rotacion version2.jpg" width="80%">
+				            
+				            <div class="content-txt">
+				                <h2>Viscosimetro de rotación</h2>
+				                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quos consectetur est eligendi, sapiente quaerat cupiditate velit, sit voluptatum repellendus perspiciatis mollitia minus totam!</p>        
+				                <a href="#modal" onclick="pdf_click(this)" id="viscosimetro-de-rotacion">Leer manual</a>         
+				            </div>
+				            
+				            <div class="content-1"></div>
+				            <div class="content-2"></div>
+				            <div class="content-3"></div>
+				            <div class="content-4"></div>
+				        </div>
+				        <div class="content-img">
+				            
+				            <img src="images/portfolio/Viscosímetros Brookfield modelos DV2T version2.jpg" width="80%">
+				            
+				            <div class="content-txt">
+				                <h2>Viscosímetros Brookfield modelos DV2T</h2>
+				                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quos consectetur est eligendi, sapiente quaerat cupiditate velit, sit voluptatum repellendus perspiciatis mollitia minus totam!</p>        
+				                <a href="#modal" onclick="pdf_click(this)" id="Viscosímetros Brookfield modelos DV2T">Leer manual</a>         
+				            </div>
+				            
+				            <div class="content-1"></div>
+				            <div class="content-2"></div>
+				            <div class="content-3"></div>
+				            <div class="content-4"></div>
+				        </div>
+				        
 
+			    	</div>
 
-<div class="container">
-    <div id="tituM" class="bandaTexto">
-     <p class="acomodarTexto">Viscosimetros</p>
-    </div>
-     <div class="grid-container col-3">
-                <div class="contenedor-img ejemplo-2">
-					<img class="Mcent" src="images/portfolio/BYK-Gardner 7900 Brookfield Viscometer.jpg" width="40%" alt="Avatar" class="image">
-					<div class="mascara"></div> 
-                  <div class="contenido">
-                    <p><strong>BYK-Gardner 7900 Brookfield Viscometer</strong></p>
-                    <a href="#modal" onclick="pdf_click(this)" id="BYK-Gardner 7900 Brookfield Viscometer" class="link">Leer manual</a> 
-                  </div>
-                </div>          
-             <div class="contenedor-img ejemplo-2">
-					<img class="Mcent"  src="images/portfolio/Viscosímetro Brookfield Dial.jpg" width="40%" alt="Avatar" class="image">
-					<div class="mascara"></div> 
-                  <div class="contenido">
-                    <p><strong>Brookfield Dial</strong></p>
-                    <a href="#modal" onclick="pdf_click(this)" id="Viscosímetro Brookfield Dial" class="link">Leer manual</a> 
-                  </div>
-                </div>
-         
-              <div class="contenedor-img ejemplo-2">
-					<img class="Mcent"  src="images/portfolio/Viscosímetro digital Brookfield DV1 M.jpg" width="40%" alt="Avatar" class="image">
-					<div class="mascara"></div> 
-                  <div class="contenido">
-                    <p><strong>Brookfield DV1 M</strong></p>
-                    <a href="#modal" onclick="pdf_click(this)" id="Viscosímetro digital Brookfield DV1 M" class="link">Leer manual</a> 
-                  </div>
-                </div>
-				<div class="contenedor-img ejemplo-2">
-					<img class="Mcent"  src="images/portfolio/Viscosímetro DV1M Brookfield.png" width="40%" alt="Avatar" class="image">
-					<div class="mascara"></div> 
-                  <div class="contenido">
-                    <p><strong>Viscosímetro DV1M </strong><br> Brookfield </p>
-                    <a href="#modal" onclick="pdf_click(this)" id="Viscosímetro DV1M Brookfield" class="link">Leer manual</a> 
-                  </div>
-                </div>
+			    </div>
 
 
 
-                <div class="contenedor-img ejemplo-2">
-					<img class="Mcent" src="images/portfolio/viscosimetro-de-rotacion.jpg" width="40%" alt="Avatar" class="image">
-					<div class="mascara"></div> 
-                  <div class="contenido">
-                    <p><strong>viscosimetro <br> de rotacion</strong></p>
-                    <a href="#modal" onclick="pdf_click(this)" id="viscosimetro-de-rotacion" class="link">Leer manual</a> 
-                  </div>
-                </div>
-             <div class="contenedor-img ejemplo-2">
-					<img class="Mcent"  src="images/portfolio/Viscosímetros Brookfield modelos DV2T.jpg" width="80%" alt="Avatar" class="image">
-					<div class="mascara"></div> 
-                  <div class="contenido">
-                    <p><strong>Viscosímetros Brookfield <br> modelos DV2T</strong></p>
-                    <a href="#modal" onclick="pdf_click(this)" id="Viscosímetros Brookfield modelos DV2T" class="link">Leer manual</a> 
-                  </div>
-                </div>
-          </div>
-		<div id="tituM" class="ctituloM">
+
+		<div class="ctituloM">
 	      <p class="titM"></p>
 	    </div>
-      </div>
+		
+				 
+	<div id="modal" class="modalDialog">
+		  <div style="margin-top: 2%">
+					<a href="#close" title="Close" class="close">X</a>
+					<iframe id="pdf" src="http://docs.google.com/gview?url=http://www.midominio.com/pdfs/elpdfquesea.pdf&embedded=true" style="width:800px; height:100%;" frameborder="0">
+					</iframe>
+
+		  </div>
+	</div>
 
 
 

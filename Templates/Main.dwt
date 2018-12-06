@@ -24,10 +24,6 @@
 
 <body>
 <header>
-	<div class="container">
-	<img src="../images/icons/icons8-youtube-play-48.png" width="48" height="48" alt=""/>
-		  <img src="../images/icons/icons8-facebook-48.png" width="48" height="48" alt=""/>
-	</div>
 		<div class="cliente">
 			
 <div id="client" class="center"><b>Atención al cliente:</b>(511) 586-6400</div>
@@ -38,31 +34,32 @@
 					<tr>
 						<td width="90%" class="center"> <h1 class="slogan">PRECISIÓN & TECNOLOGÍA a su servicio</h1></td>
 						<td>
-							   <table class="languages">
-							   <tr>
-								 <td colspan="2" align="center" class="ligth">Idioma</td>
-							   </tr>
+							  
+						</td>
+					</tr>
+				</table>
+			</div>
+  <nav class="interactive_menu" style="display: flex; ">
+          <ul class="menu">
+              <li class="menu_item"><a href="index.html" class="menu_link">INICIO</a></li>
+              <li class="menu_item"><a href="nosotros.html" class="menu_link">NOSOTROS</a></li>
+              <li class="menu_item"><a href="equipos.html" class="menu_link">EQUIPOS</a></li>
+              <li class="menu_item"><a href="descargas.html" class="menu_link">DESCARGAS</a></li>
+              <li class="menu_item"><a href="marcas.html" class="menu_link">MARCAS</a></li>
+              <li class="menu_item"><a href="clientes.html" class="menu_link">CLIENTES</a></li>
+              <li class="menu_item"><a href="contactanos.html" class="menu_link">CONTÁCTANOS</a></li>
+
+          </ul>
+	  <div style="padding-top: 15px;width: 30%;" align="right">
+	  <table class="languages" style="">
 							   <tr>
 								 <td><a href="#"><img class="img-language" src="images/spain.png" alt=""> </a>  </td>
 								 <td><a href="#"><img class="img-language" src="images/eeuu.png" alt=""></a> </td>
 							   </tr>
 							  </table>
-						</td>
-					</tr>
-				</table>
-			</div>
-  <nav class="interactive_menu">
-          <ul class="menu">
-              <li class="menu_item"><a href="index.html" class="menu_link">Inicio</a></li>
-              <li class="menu_item"><a href="nosotros.html" class="menu_link">Nosotros</a></li>
-              <li class="menu_item"><a href="equipos.html" class="menu_link">Equipos</a></li>
-              <li class="menu_item"><a href="descargas.html" class="menu_link">Descargas</a></li>
-              <li class="menu_item"><a href="marcas.html" class="menu_link">Marcas</a></li>
-              <li class="menu_item"><a href="clientes.html" class="menu_link">Clientes</a></li>
-              <li class="menu_item"><a href="contactanos.html" class="menu_link">Contáctanos</a></li>
 
-          </ul>
-
+	  </div>
+	   						
    </nav>
 	</header>
 	<section>
